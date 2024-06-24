@@ -1,0 +1,37 @@
+Navigation Menu
+
+Code
+Pull requests
+Editing README.md in APFC
+BreadcrumbsAPFC
+/
+
+in
+BreadcrumbsAPFC / in
+
+Edit
+
+Preview
+
+Show Diff
+Introduction
+This is a web proxy script for Android devices that intercepts traffic through iptables and forwards it to a designated proxy server program for magic Internet access and such (I just don't like seeing little key icons in the status bar).
+
+File Parsing
+The clash folder is used to store the clash program and configuration files.
+
+The overture folder is used to store the overture program and configuration files, which is a DNS handler.
+
+redsocks2 folder is used to store redsocks2 program and configuration files. This is a program that receives traffic forwarded by iptables and forwards it out by socks.
+
+The tiny folder is used to store the tiny program and configuration files. This is a proxy server program used to modify HTTP request headers.
+
+The v2ray folder is used to store the v2ray program and configuration files.
+
+start-core.sh is the core program startup script.
+
+start.sh is the full startup script, which includes the core program and the iptables firewall, as well as configuration of the firewall features.
+
+state.sh is the core program and firewall state check script.
+
+stop.sh is the core program and firewall shutdown script.
